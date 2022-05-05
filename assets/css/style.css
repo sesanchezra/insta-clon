@@ -104,6 +104,7 @@ body{
     padding: 14px 4px 14px 16px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .header-post .sub-header-post{
@@ -130,12 +131,79 @@ body{
     padding-right: 14px;
 }
 
-.container-post .img-post{
+.img-container-post{
     height: 600px;
-    width: 100vh;
-    
+}
+
+.img-container-post img{
+    height: 600px;
+    width: 100%;
+}
+
+.reaction-post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reaction-post .bx-save{
+    padding-top:16px ;
+    margin-right: 16px;
+    font-size: 30px;
+}
+
+.reaction-post .first-reaction{
+    padding: 8px;
+}
+
+.reaction-post .first-reaction i{
+    font-size: 30px;
+    padding: 8px;
+}
+
+.likes-post p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding:0 0 0 16px;
+    margin-bottom:10px;
+}
+
+.comment-section{
+    margin-bottom: 10px;
+}
+
+.likes-post .profile-comment{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding:0px 0 0 16px;
     
 }
+
+.likes-post .comment{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding:0px 0 0 16px;
+}
+
+.likes-post .see-more{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding:0px 0 0 16px;
+    color:rgba(142, 142, 142);
+    margin-bottom: 10px;
+}
+
+.likes-post .hour{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    padding:0px 0 0 16px;
+    color:rgba(142, 142, 142);
+
+}
+
+
 
 
 
